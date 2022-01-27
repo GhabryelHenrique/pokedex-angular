@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import './config-css/variables.css';
+@import './config-css/reset.css';
+@import './config-css/animator.css';
+@import './config-css/btn.css';
+
+html {
+  font-family: 'Roboto', sans-serif,'Vollkorn', serif;
+  background-color: var(--primary-color);
+}
+
+main {
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}

@@ -1,0 +1,63 @@
+.listagem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  display: flex;
+  width: calc(49% - 40px);
+  height: 117px;
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+h2 {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+;
+}
+
+li {
+  background: var(--cinza);
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+.pokemonImage {
+  position: absolute;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 110px;
+  bottom: 20px;
+  right: 20px;
+
+  background: url(../../../assets/bg/background-list-pokemons.svg)
+}
+
+img {
+  max-width: 70px;
+}

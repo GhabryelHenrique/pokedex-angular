@@ -1,0 +1,90 @@
+ @import '../../../config-css/btn.css';
+
+ :host main {
+	 margin-top: 40px;
+}
+ :host main .pokemon__names {
+	 position: relative;
+	 display: flex;
+	 align-items: flex-end;
+	 justify-content: flex-end;
+	 height: 75px;
+	 padding: 0 30px;
+}
+ :host main .pokemon__names h1 {
+	 color: var(--branco);
+	 font-size: 32px;
+	 text-transform: capitalize;
+}
+ :host main .pokemon__names h2 {
+	 position: absolute;
+	 font-weight: 100;
+	 top: 0;
+	 font-size: 60px;
+	 color: rgba(255, 255, 255, 0.1);
+}
+ :host main .pokemon__names h1, :host main .pokemon__names h2 {
+	 -webkit-animation-fill-mode: none !important;
+	 animation-fill-mode: none !important;
+}
+ :host main .pokemon__status {
+	 position: relative;
+}
+ :host main .pokemon__status img {
+	 position: absolute;
+	 top: -90px;
+	 left: 30px;
+	 max-width: 130px;
+	 z-index: 10;
+	 -webkit-animation-fill-mode: none !important;
+	 animation-fill-mode: none !important;
+}
+ :host main .pokemon__status__statistics {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 background: var(--branco);
+	 min-height: 43.9vh;
+	 margin-top: 10px;
+	 padding: 110px 35px 30px;
+	 border-radius: 50px 50px 0 0;
+}
+ :host main .pokemon__status__statistics h3 {
+	 margin-bottom: 20px;
+	 font-weight: 700;
+	 font-style: italic;
+	 font-size: 32px;
+	 text-decoration: underline;
+	 color: var(--secondary-color);
+}
+ :host main .pokemon__status__statistics ol li {
+	 display: flex;
+	 justify-content: space-between;
+	 font-size: 18px;
+	 line-height: 130%;
+}
+ @media (max-width: 420px) {
+	 :host main {
+		 margin-top: 10px;
+	}
+	 :host main .pokemon__names h1 {
+		 font-size: 20px;
+	}
+	 :host main .pokemon__names h2 {
+		 top: 35px;
+		 font-size: 20px;
+	}
+	 :host main .pokemon__status {
+		 position: relative;
+	}
+	 :host main .pokemon__status img {
+		 position: absolute;
+		 top: -80px;
+		 left: 0px;
+		 max-width: 100px;
+	}
+	 :host main .pokemon__status__statistics {
+		 min-height: 57vh;
+		 padding-top: 50px;
+	}
+}
