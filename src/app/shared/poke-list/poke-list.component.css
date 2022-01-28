@@ -1,13 +1,17 @@
 .listagem {
   display: flex;
-  justify-content: space-between;
   padding: 20px 0;
   flex-wrap: wrap;
+  /* grid-template-columns: repeat(4, 290px); */
+  justify-content: space-around;
+  width: 99%;
+  margin: 0 auto;
+
 }
 
 .pokemon {
   display: flex;
-  width: calc(49% - 40px);
+  width: 290px;
   height: 117px;
   background: var(--branco);
   padding: 20px;

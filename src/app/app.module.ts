@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module'
 import { HttpClientModule } from '@angular/common/http';
 import { PagesModule } from './pages/pages.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { PagesModule } from './pages/pages.module';
     PagesModule,
     SharedModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

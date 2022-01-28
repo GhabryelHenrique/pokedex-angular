@@ -5,6 +5,8 @@ form {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 15px 20px;
   border-radius: 10px;
+  width: 50%;
+  margin : 0 auto;
 }
 
 input {
@@ -13,8 +15,6 @@ input {
   font-size: 18px;
   border: none;
   color: var(--branco)
-
-
 }
 
 
