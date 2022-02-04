@@ -6,7 +6,11 @@
 
 html {
   font-family: 'Roboto', sans-serif,'Vollkorn', serif;
-  background-color: var(--primary-color);
+  background-color: #262835;
+}
+
+body {
+  background-color: #262835 !important;
 }
 
 main {
@@ -16,3 +20,6 @@ main {
   box-sizing: border-box;
 
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

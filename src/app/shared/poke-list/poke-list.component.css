@@ -65,3 +65,7 @@ li {
 img {
   max-width: 70px;
 }
+
+.my-pagination {
+  background-color: antiquewhite;
+}

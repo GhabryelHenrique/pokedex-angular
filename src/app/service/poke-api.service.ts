@@ -9,7 +9,7 @@ export class PokeApiService {
 
   res: any
 
-  private url: string = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=100'
+  private url: string = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=1118'
 
   constructor(private http: HttpClient) { }
 
