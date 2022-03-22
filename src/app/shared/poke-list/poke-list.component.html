@@ -4,7 +4,7 @@
 <section class="listagem">
   <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons | paginate: { itemsPerPage: 100, currentPage: p }">
     <a [routerLink]="['details', pokemon.status.id]" class="pokemon" *ngIf="pokemon.status">
-      <section class="pokemonStatus" id="">
+      <section class="pokemonStatus">
         <h2>{{ pokemon.name }}</h2>
 
         <ul>
